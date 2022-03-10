@@ -1,0 +1,26 @@
+@import "../../commons";
+
+.header{
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  height: 88px;
+  padding: 24px;
+  gap: 10px;
+  &:after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: #E7E7ED;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

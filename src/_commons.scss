@@ -1,0 +1,87 @@
+@import "index";
+@import "~bootstrap/scss/bootstrap";
+
+$radius:4px;
+$radius-8:8px;
+$default-padding:8px 16px;
+$small-padding: 5.5px 12px;
+$default-font-size:16px;
+$small-font-size:14px;
+
+/*new colors*/
+$primary: #0B5FFF;
+$primary-hover: #004AD7;
+$primary-light: #F0F5FF;
+
+$success: #31BB51;
+$success-hover: #287D3C;
+$success-light: #EDF9F0;
+
+$warning: #B95000;
+$warning-hover: #9F4500;
+$warning-light: #FFF4EC;
+
+
+$secondary-light: #A7A9BC;
+$secondary-light3: #E7E7ED;
+
+
+$light: #F1F2F5;
+
+$danger: #FF3C3C;
+$danger-hover: #DA1414;
+$danger-light: #FEEFEF;
+$info: #2E5AAC;
+$border-blue: #80ACFF;
+
+$white: #FFF;
+
+$darkness: #232758;
+$darkness-disabled: #A0A0AD;
+$darknessOutline: #E5E5E5;
+$darknessDropDown: #232758;
+
+
+$favouriteYellow: #FFD748;
+
+
+$text-secondary: #6B6C7E;
+$text-dark: #272833;
+$text-muted: #B6B9BB;
+$text-primary-dark: #191C30;
+$text-button: #6E7377;
+$text-body: #6E7377;
+$text-disabled: #C5C7C9;
+$text-heading: #152536;
+$text-button-user-ui: #2F3B47;
+$text-semi-medium: #A3A3A3;
+$border: #B3CDFF;
+$border-button: #CDCED9;
+
+$custom-purple: #7B61FF;
+
+/* User UI Colors */
+$success-user-ui: #44AA5A;
+$danger-user-ui: #E83F43;
+$warning-user-ui: #FF8A65;
+$secondary-user-ui: #DEE2E6;
+$disabled-user-ui: #A0A0AD;
+$warning-red: #E83F43;
+$warning-dark-user-ui:#CE8846;
+$primary-dark-user-ui:#4389BB;
+$secondary-dark-user-ui:#6C5977;
+$boxes-dark-user-ui:#597775;
+$gray-100-user-ui:#FAFAFA;
+$gray-200-user-ui:#EEEFF0;
+$gray-300-user-ui: #DEE2E6;
+$scroll-handle-user-ui: #B9B9B9;
+$secondary-or-hover-user-ui: #2832A8;
+$secondary-gray-or-text-user-ui: #636669;
+
+/*Meeting Info Card Colors*/
+$default-card:#808080;
+$incoming-card:#597775;
+$outgoing-card:#6C5977;
+$webinar-card:#CE8846;
+$promotion-card:#4389BB;
+

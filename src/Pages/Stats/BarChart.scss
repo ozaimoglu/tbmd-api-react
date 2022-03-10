@@ -1,0 +1,112 @@
+.chart {
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+  .chart-container {
+    margin-top: 10px;
+    .chart-top {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      .chart-y-title {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: right;
+      }
+      .bar-chart {
+        position: relative;
+        flex: 20;
+        border-left: 1px solid grey;
+        border-bottom: 1px solid grey;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        gap: 30px;
+        @media screen and (max-width: 992px) {
+          gap: 5px;
+        }
+        .bar {
+          @media screen and (min-width: 993px) {
+            position: relative;
+          }
+          transition: 1.5s ease max-height;
+          max-height: 0;
+
+          width: 100%;
+          background-color: red;
+          cursor: pointer;
+          .tooltiptext {
+            visibility: hidden;
+            background-color: #FFFFFF;
+            padding: 4px 8px;
+            color: black;
+            border-radius: 6px;
+            /* Position the tooltip */
+            position: absolute;
+            z-index: 1;
+            top: -20px;
+            left: 5px;
+            white-space: nowrap;
+            @media screen and (max-width: 992px) {
+              font-size: 10px;
+              top: 2%;
+              width: auto;
+              left: 50%;
+            }
+          }
+          .title {
+            @media screen and (min-width: 993px) {
+              display: none;
+            }
+            top: 8%;
+          }
+          &.show {
+            max-height: 400px;
+          }
+        }
+        .bar:hover {
+          opacity: 0.6 !important;
+        }
+        .bar:hover .tooltiptext {
+          visibility: visible;
+        }
+      }
+    }
+    .chart-bottom {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      overflow: hidden;
+      @media screen and (max-width: 992px) {
+        display: none;
+      }
+      .chart-x-title {
+        gap: 30px;
+        @media screen and (max-width: 992px) {
+          gap: 5px;
+        }
+        font-size: 11px;
+        flex: 20;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        div {
+          width: 100%;
+        }
+      }
+      .chart-bottom-left {
+        flex: 1;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  .right-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .content {
+    margin-top: 88px;
+    height: calc(100vh - 88px);
+    overflow: auto;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 20px;
+    @media screen and (max-width: 992px) {
+      padding-right: 5%;
+      padding-left: 5%;
+    }
+  }
+  .footer {
+    margin-top: auto;
+    height: 40px;
+    padding: 20px;
+  }
+}

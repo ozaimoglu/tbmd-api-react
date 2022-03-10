@@ -1,0 +1,13 @@
+@import "../../commons";
+
+.select {
+  border-radius: 8px;
+  border: 1px solid $border;
+  padding: 8px 12px;
+  outline: none;
+  width: 253px;
+  cursor: pointer;
+  :hover {
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+  }
+}

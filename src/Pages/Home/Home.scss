@@ -1,0 +1,25 @@
+.home-container {
+  margin-top: 20px;
+  .home-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .movies-container {
+
+  }
+  .page-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    button {
+      background-color: transparent !important;
+      border: 1px solid grey;
+      border-radius: 8px;
+      color: grey;
+      outline: none;
+    }
+  }
+}
