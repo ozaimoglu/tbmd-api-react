@@ -42,7 +42,7 @@ const Stats = () => {
     return (
         <div className="stats-container">
             <BarChart tooltipText="Rate" title="Top Movies Ratings" data={data} />
-            <BarChart tooltipText="Rate Count" yData={["25k +", "20k", "15k", "10k", "5k", "0"]} title="Top Movies Ratings Counts" data={countData} />
+            <BarChart tooltipText="Count" yData={["25k +", "20k", "15k", "10k", "5k", "0"]} title="Top Movies Ratings Counts" data={countData} />
         </div>
     )
 }
